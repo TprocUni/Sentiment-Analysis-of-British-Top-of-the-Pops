@@ -19,13 +19,13 @@ class AlbumsToSongs:
         self.albums = albums
         self.song = []
 
-        self.client_id = 'f655315e565543e0bfd7450c169a2d9c'
-        self.client_secret = '5f538e60d19d477f9a86f3d4c0539371'
+        self.client_id = 'YOURCLIENTID'
+        self.client_secret = 'YOURCLIENTSECRET'
         self.auth_url = "https://accounts.spotify.com/api/token"
         self.base_url = "https://api.spotify.com/v1/search"
 
         self.genius_base_url = "https://api.genius.com"
-        self.genius_access_token = "dETcGFIIPKOXjk1-9qjPW3H7n0GpG5vNNWfFlu8ZYXOAOJoOEQclc4ortQC0Zyu-"
+        self.genius_access_token = "YOURGENUISACCESSTOEKN-"
 
         self.auth_token = None
         self.auth_token_get_time = 0
